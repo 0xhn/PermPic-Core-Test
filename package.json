@@ -1,0 +1,23 @@
+{
+  "name": "permpic-core",
+  "version": "1.0.0",
+  "description": "Permpic core is a typescript library that supports permpic basic application functions, permweb upload / download and other common functions",
+  "main": "index.ts",
+  "dependencies": {
+    "arweave": "^1.10.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/15060322123/PermPic-Core-Test.git"
+  },
+  "keywords": [
+    "permpic",
+    "ppc"
+  ],
+  "author": "Charlie_Z",
+  "license": "MIT"
+}
