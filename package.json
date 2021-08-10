@@ -2,11 +2,16 @@
   "name": "permpic-core",
   "version": "1.0.0",
   "description": "Permpic core is a typescript library that supports permpic basic application functions, permweb upload / download and other common functions",
-  "main": "index.ts",
+  "main": "arweave.ts",
   "dependencies": {
+    "mocha": "^9.0.3",
     "arweave": "^1.10.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.13",
+    "tslib": "^2.3.0"
+  },
   "scripts": {
     "test": "npm run test"
   },
